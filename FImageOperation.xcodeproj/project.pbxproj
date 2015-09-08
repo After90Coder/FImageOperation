@@ -61,6 +61,7 @@
 		BD7085011B9E9613006972AB /* image_ver@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD7084D91B9E9613006972AB /* image_ver@3x.png */; };
 		BD7085041B9E995E006972AB /* FImageOperationClipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7085031B9E995E006972AB /* FImageOperationClipViewController.m */; };
 		BDD33ABE1B9EB73400AAA793 /* FImageOperationMosaicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD33ABD1B9EB73400AAA793 /* FImageOperationMosaicViewController.m */; };
+		BDD33AC01B9EC57300AAA793 /* FImageOperaionDemo.gif in Resources */ = {isa = PBXBuildFile; fileRef = BDD33ABF1B9EC57300AAA793 /* FImageOperaionDemo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +140,7 @@
 		BD7085031B9E995E006972AB /* FImageOperationClipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FImageOperationClipViewController.m; sourceTree = "<group>"; };
 		BDD33ABC1B9EB73400AAA793 /* FImageOperationMosaicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FImageOperationMosaicViewController.h; sourceTree = "<group>"; };
 		BDD33ABD1B9EB73400AAA793 /* FImageOperationMosaicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FImageOperationMosaicViewController.m; sourceTree = "<group>"; };
+		BDD33ABF1B9EC57300AAA793 /* FImageOperaionDemo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = FImageOperaionDemo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 				BD70843A1B9E8D8C006972AB /* Images.xcassets */,
 				BD7084AB1B9E8EFF006972AB /* AppDemo.png */,
 				BD7084AC1B9E8EFF006972AB /* naicha_mm.jpg */,
+				BDD33ABF1B9EC57300AAA793 /* FImageOperaionDemo.gif */,
 				BD70843C1B9E8D8C006972AB /* LaunchScreen.xib */,
 				BD70842D1B9E8D8C006972AB /* Supporting Files */,
 			);
@@ -391,6 +394,7 @@
 				BD7084DB1B9E9613006972AB /* image_brush_big@3x.png in Resources */,
 				BD7084FE1B9E9613006972AB /* image_rotate@2x.png in Resources */,
 				BD7084EA1B9E9613006972AB /* image_hor@2x.png in Resources */,
+				BDD33AC01B9EC57300AAA793 /* FImageOperaionDemo.gif in Resources */,
 				BD7084E41B9E9613006972AB /* image_clip_rightdown@2x.png in Resources */,
 				BD7084E11B9E9613006972AB /* image_clip_leftdown@3x.png in Resources */,
 				BD7084F81B9E9613006972AB /* image_mosaic_small_click@2x.png in Resources */,
