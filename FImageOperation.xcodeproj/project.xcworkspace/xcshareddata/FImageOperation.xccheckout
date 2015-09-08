@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AF75FEA4-E5E7-4616-B19E-38518BD299B1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FImageOperation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>04B41B69B7449A74E00859F43DD560596D4A35F0</key>
+		<string>https://github.com/After90Coder/FImageOperation.git</string>
+		<key>434D3CE7F9F32FA80F67487215A65FB4A5E909BA</key>
+		<string>https://github.com/After90Coder/FImageOperation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FImageOperation.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>04B41B69B7449A74E00859F43DD560596D4A35F0</key>
+		<string>../..FImageOperation/</string>
+		<key>434D3CE7F9F32FA80F67487215A65FB4A5E909BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/After90Coder/FImageOperation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>434D3CE7F9F32FA80F67487215A65FB4A5E909BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>434D3CE7F9F32FA80F67487215A65FB4A5E909BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FImageOperation</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>04B41B69B7449A74E00859F43DD560596D4A35F0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FImageOperation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

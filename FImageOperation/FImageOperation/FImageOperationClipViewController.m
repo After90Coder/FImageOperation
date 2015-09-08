@@ -15,8 +15,6 @@
 
 @interface FImageOperationClipViewController ()
 
-@property (nonatomic, strong) UIImage *editedImage;
-
 @property (nonatomic, strong) UIImageView *showImgView;
 @property (nonatomic, strong) UIView *overlayView;
 @property (nonatomic, strong) UIView *ratioView;
@@ -47,6 +45,9 @@
     [self.navigationItem setHidesBackButton:YES];
     
     [self setTitle:@"裁剪"];
+    
+    //手势缩小范围
+    self.limitRatio = 3.f;
     
     [self initView];
     [self initAllButtons];
