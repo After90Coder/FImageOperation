@@ -20,4 +20,4 @@ Implementation steps（eg）：
 <br />
 App Demo:
 <br />
-<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/AppDemo.png" width="320" height="480"/>
+<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/FImageOperation.gif" width="320" height="480"/>
