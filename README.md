@@ -18,5 +18,6 @@ Implementation steps（eg）：
 ② [[FImageOperationManager sharedInstance] operationType:(FImageOperationType)operationType sourceImage:(UIImage *)sourceImage delegate:(UIViewController *)delegate];
 <br />
 <br />
-App Deme:
-<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/AppDemo.png"/>
+App Demo:
+<br />
+<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/AppDemo.png" width="320" height="480"/>
