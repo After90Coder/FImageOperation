@@ -1,25 +1,103 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUg-Tb-izY">
+                                <rect key="frame" x="130" y="530" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="ogT-Lp-lyu"/>
+                                </constraints>
+                                <state key="normal" title="裁剪">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navToClip:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pdW-kh-8l6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HXV-pl-GbZ">
+                                <rect key="frame" x="244" y="530" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="DNa-s4-bf6"/>
+                                </constraints>
+                                <state key="normal" title="马赛克">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navToMosaic:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nfv-LG-vK2"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="naicha_mm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MSa-YW-xih">
+                                <rect key="frame" x="26" y="40" width="268" height="480"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZL-oG-CUn">
+                                <rect key="frame" x="16" y="530" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="JlE-8M-gs5"/>
+                                </constraints>
+                                <state key="normal" title="旋转">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="navToRotaing:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="df6-bd-meJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gZL-oG-CUn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="0R6-Wf-pN6"/>
+                            <constraint firstItem="HXV-pl-GbZ" firstAttribute="top" secondItem="MSa-YW-xih" secondAttribute="bottom" constant="10" id="4Vh-f7-L1D"/>
+                            <constraint firstItem="MSa-YW-xih" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="JnF-uv-a4u"/>
+                            <constraint firstItem="wUg-Tb-izY" firstAttribute="top" secondItem="MSa-YW-xih" secondAttribute="bottom" constant="10" id="OKn-EN-R11"/>
+                            <constraint firstItem="gZL-oG-CUn" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="TQn-bo-fBK"/>
+                            <constraint firstItem="MSa-YW-xih" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="VpZ-Od-YvT"/>
+                            <constraint firstItem="HXV-pl-GbZ" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="WvZ-1a-GYO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="MSa-YW-xih" secondAttribute="trailing" constant="10" id="cam-kM-P04"/>
+                            <constraint firstItem="gZL-oG-CUn" firstAttribute="top" secondItem="MSa-YW-xih" secondAttribute="bottom" constant="10" id="oyB-ON-hzw"/>
+                            <constraint firstItem="MSa-YW-xih" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="qYz-p5-pim"/>
+                            <constraint firstAttribute="centerX" secondItem="MSa-YW-xih" secondAttribute="centerX" id="sEV-Uc-W8y"/>
+                            <constraint firstAttribute="centerX" secondItem="wUg-Tb-izY" secondAttribute="centerX" id="v41-7h-mc0"/>
+                            <constraint firstItem="MSa-YW-xih" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="10" id="xuJ-La-CkE"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="VpZ-Od-YvT"/>
+                                <exclude reference="qYz-p5-pim"/>
+                                <exclude reference="0R6-Wf-pN6"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="imageView" destination="MSa-YW-xih" id="8bt-4K-Gh8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="naicha_mm.jpg" width="320" height="480"/>
+    </resources>
 </document>
