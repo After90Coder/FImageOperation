@@ -1,23 +1,45 @@
-# FImageOperation
-Image Operation Libaray by Frank/Objective-C 
+# What is it
+<br />
+-----------
+<br />
+## FImageOperation
 <br />
 <br />
-support image operation types: 
+An Image Operation Libaray by Frank/Objective-C  
 <br />
-① Clip
-<br />
-② Mosaic
-<br />
-③ Rotaing 
+__Support Operations: __		
 <br />
 <br />
-Implementation steps（eg）： 
+* Clip	
 <br />
-① #import "FImageOperationManager" 
+* Mosaic	
 <br />
-② call [[FImageOperationManager sharedInstance] operationType:(FImageOperationType)operationType sourceImage:(UIImage *)sourceImage delegate:(UIViewController *)delegate];
+* Rotaing 	
 <br />
 <br />
-App Demo:
 <br />
-<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/FImageOperation.gif" width="320" height="480"/>
+# Usage
+<br />
+<br />
+<br />
+Implementation steps（eg）： 	
+<br />
+<br />
+```		
+<br />
+#import "FImageOperationManager"		
+<br />
+```	
+<br />
+<br />
+```		
+<br />
+[[FImageOperationManager sharedInstance] operationType:(FImageOperationType)operationType sourceImage:(UIImage *)sourceImage delegate:(UIViewController *)delegate];		
+<br />
+```	
+<br />
+<br />
+# Demo Image
+<br />
+<img src="https://github.com/After90Coder/FImageOperation/blob/master/FImageOperation/FImageOperaionDemo.gif" width="320" height="480"/>
+
