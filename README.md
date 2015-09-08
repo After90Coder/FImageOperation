@@ -15,7 +15,7 @@ Implementation steps（eg）：
 <br />
 ① #import "FImageOperationManager" 
 <br />
-② [[FImageOperationManager sharedInstance] operationType:(FImageOperationType)operationType sourceImage:(UIImage *)sourceImage delegate:(UIViewController *)delegate];
+② call [[FImageOperationManager sharedInstance] operationType:(FImageOperationType)operationType sourceImage:(UIImage *)sourceImage delegate:(UIViewController *)delegate];
 <br />
 <br />
 App Demo:
